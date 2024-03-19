@@ -2,7 +2,7 @@
 
 **Educational-Website-Template** is an educational platform designed to provide users with access to courses and learning resources. It is built entirely using React, with additional technologies including HTML, CSS, JavaScript, and Bootstrap for designing and functionality.
 
-**[Live Demo](https://myeducationalwebsite.netlify.app/)**
+**[Live Demo](https://myeducationalreactapp.netlify.app/)**
 
 ## Features
 
