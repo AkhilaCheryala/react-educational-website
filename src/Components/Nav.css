@@ -37,3 +37,13 @@ nav{
     margin-left: 7rem;
     border-radius: 20px;
 }
+@media (max-width: 1200px){
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px !important;
+}
+.SignUp{
+margin-left: 3rem;
+}
+}
