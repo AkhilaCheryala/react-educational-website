@@ -3,8 +3,9 @@
     
    
 }
-.enroll-btn{
-    border: none;
+
+.enroll-btn
+  {  border: none;
     background-color: red;
     color:white;
     border-radius: 15px;
@@ -28,4 +29,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  @media (max-width: 600px){
+    .enroll-btn{
+      padding: 5px 10px;
+      width: 5rem;
+    }
   }

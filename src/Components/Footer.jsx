@@ -4,7 +4,7 @@ import './Footer.css';
     return(
 <div>
     <div className='footer'>
-       <div className='row'>
+       <div className='row footer-footer'>
          <div className='col-2 p-2'>
          <div id='contact'>
         <ul>

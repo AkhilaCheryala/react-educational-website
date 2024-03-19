@@ -1,6 +1,5 @@
 import React from 'react';
-
- import {  Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Arunsjourney.css';
 import  Footer from '../Components/Footer';
 import journalistImage from '../assets/journalist.jpg';
@@ -48,10 +47,8 @@ storytelling became my mission, ensuring they're equipped to make their mark in 
 </div>
 <p>Embark on this transformative journey with me and unlock the potential within you. Together, let's redefine journalism and shape the narratives of tomorrow.</p>
 </div>
-<Link to="/">Back to Home</Link>
+<NavLink to="/" className='backtohome'>Back to Home</NavLink>
     <Footer/>
-   
-
     </div>
     
     );

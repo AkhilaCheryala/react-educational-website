@@ -39,6 +39,13 @@ font-size: 18px;
     padding:  2rem 6rem 6rem 2rem ;
     border-radius: 30px;
 }
+ 
+.backtohome{
+ color: red !important;
+ text-decoration: underline;
+ display: block;
+ text-align: center;
+}
 @media (max-width: 1200px){
 .journalist-img{
     width: 300px;

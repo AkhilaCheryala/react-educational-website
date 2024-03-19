@@ -61,12 +61,13 @@
  h4{
   width:max-content;
  }
- .row{
- height: 90vh;
- display: flex;
+ .footer-footer{
+ height: 100vh;
+  display:flex;
+  flex-wrap: nowrap !important;
  gap: 0;
- padding: 2rem 0;
- }
+ padding: 2rem  0;
+ } 
  .final-footer{
   display: block;
  }

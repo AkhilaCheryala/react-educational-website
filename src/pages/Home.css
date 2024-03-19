@@ -248,6 +248,9 @@
     .row{
       gap: 10px;
     }
+    .about-arun p{
+      margin-top: 1rem;
+    }
     
   }
   @media (max-width: 600px) {
@@ -272,12 +275,15 @@
     }
     .input-box{
       position: absolute;
-      top: 60%;
+      top: 65%;
       margin: 0;
     }
     #email{
       width: 150px;
       padding: 5px 10px;
+    }
+    .about-arun h4{
+ display: inline;
     }
     .login{
       padding: 6px 8px;

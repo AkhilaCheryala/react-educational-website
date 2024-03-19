@@ -82,8 +82,6 @@ return(
     <h2 id='about'>Meet MR.Arun</h2>
     <div className='About'>
      <div className='about-arun'>
-     
-       
        <h4>Retired Journalist,14 years of Experience</h4>
         <p>After decades of chasing stories, I've amassed a wealth of
         experience in the ever-evolving world of journalism. Witnessing 
