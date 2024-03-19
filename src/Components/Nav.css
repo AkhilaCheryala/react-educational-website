@@ -37,16 +37,82 @@ nav{
     margin-left: 7rem;
     border-radius: 20px;
 }
+.hamburger-nav{
+    display: none;
+}
+.menu-nav{
+    display: none;
+}
+
+.menu-nav a {
+    display: none;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0) !important;
+    text-decoration: none;
+    background-color: white;
+   margin: 0 5px;
+    width: min-content;
+}
+.menu-nav li {
+    margin: 0 !important;
+}
+.bi-list{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+}
+.menu{
+    background-color: black;
+    border: none;
+}
+.menu-nav.show {
+    display: flex; 
+    flex-direction: column;
+    position: absolute;
+    z-index: 1000;
+    top: 60%; 
+    right:1rem;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    border-top: 2px solid #000000;
+    padding: 5px 0; 
+}
 @media (max-width: 1200px){
 ul {
     display: flex;
     flex-direction: row;
     gap: 10px !important;
 }
+.logo{
+    width: 150px;
+    height: 80px;
+}
+a{
+    font-size: 16px;
+}
 .SignUp{
 margin-left: 3rem;
+
 }
 }
-@media (max-width: 600px) {
-   
+
+@media (max-width: 600px){
+.hamburger-nav{
+    position: absolute;
+    top: 0;
+    display: flex;
+    margin: 10px;
+    gap: 9rem;
+    justify-content: space-between;
+    align-content: center;
 }
+nav ul{
+    display: none;
+}
+.menu-nav.show  {
+    display: flex;
+}
+ .menu-nav a {
+     display: block; 
+} 
+}
+
