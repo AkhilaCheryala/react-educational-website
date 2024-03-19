@@ -66,11 +66,14 @@ return(
            <h6>Duration</h6>
            <p>2 Weeks</p>
            <h6> Course Fee</h6>
-            <p>$399</p>
+            <p> $399</p>
             <Enroll/>
          </div>
+        
          <div>
+       
            <img src='/course.jpg' className='course-pic' alt='course-img'/>
+           
          </div>
 
        </div>

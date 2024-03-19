@@ -41,31 +41,26 @@
     margin: 2rem;
   }
   .course-pic{
-    width: 400px;
-    height: 400px;
-    margin-left: 5rem;
+    width: 320px;
+    height: 350px;
+    margin-left: -2rem;
     margin-top: -2rem;
   }
   .brocher{
     background-color: rgb(246, 226, 226);
     padding: 2rem;
   }
-  .brocher-text{
-    text-align: center;
-    top: 40px;
-    left: 16rem;
-    color:rgb(16, 16, 16); 
-  }
-  .brocher-text h4{
+   .brocher-text h4{
     text-align: left;
     margin-left: 8rem;
-  }
+  } 
   .brocher-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
    align-content: first baseline;
+   justify-items: flex-start;
     gap: 10px;
-   width: 70rem;
+ column-gap: 1rem;
    margin-top:2rem;
   } 
   
@@ -83,7 +78,6 @@
   }
   .duration p{
     color: grey;
-    width: 50%;
   }
   .enroll-btn{
     border: none;
@@ -221,14 +215,21 @@
     }
     .brocher-grid{
       display: grid;
-      gap:0;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap:1rem;
       width: 100%;
       margin-top: 4rem;
       padding: 0 !important;
+      justify-items: center;
     }
     .duration{
-      width: 30%;
+      width: 30% ;
     }
+  .brocher-text{
+    text-align: left;
+    margin-left: -5rem;
+
+  }
     .shadow{
       position: absolute;
       width: 100%;
