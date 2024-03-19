@@ -63,7 +63,12 @@
  }
  .row{
  height: 90vh;
+ display: flex;
  gap: 0;
+ padding: 2rem 0;
+ }
+ .final-footer{
+  display: block;
  }
  
   }
