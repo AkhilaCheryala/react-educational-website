@@ -47,3 +47,12 @@ ul {
 margin-left: 3rem;
 }
 }
+@media (max-width: 600px) {
+    ul{
+        display: flex;
+        gap: 0 !important;
+    }
+    nav{
+        width: 400px;
+    }
+}

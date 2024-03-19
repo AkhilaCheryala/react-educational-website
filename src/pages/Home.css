@@ -241,13 +241,75 @@
       width: 300px ;
       height: 400px;
     }
+    .About{
+      display: grid;
+      gap: 2rem;
+    }
     .row{
       gap: 10px;
     }
     
   }
-  @media (max-width: 480px) {
-    .container {
-      padding: 0 5px;
+  @media (max-width: 600px) {
+    .Welcome-class{
+      width: 100%;
+      height: 80vh;
     }
+    .board{
+      position: relative;
+    }
+    .intro-line{
+      position: absolute;
+      top: 15%;
+      margin: 1rem ;
+    }
+    .intro-line h1{
+      display: block;
+      font-size: 22px;
+    }
+    .intro-line p{
+      font-size: 15px;
+    }
+    .input-box{
+      position: absolute;
+      top: 60%;
+      margin: 0;
+    }
+    #email{
+      width: 150px;
+      padding: 5px 10px;
+    }
+    .login{
+      padding: 6px 8px;
+    }
+    #course{
+      margin: 3rem 1rem;
+    }
+    .brocher-grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 0;
+    }
+    .course-pic{
+      display: none;
+    }
+    .Features ul{
+      font-size: 16px;
+    }
+    .arun-pic{
+      width: 150px;
+      height: 200px;
+      margin-left: 9rem;
+      margin-top: -2rem;
+    }
+    .About{
+      display: block;
+    }
+    .row{
+      display: flex;
+      flex-direction: column;
+    }
+  .quote{
+    margin: 0 !important;
+  }
   }

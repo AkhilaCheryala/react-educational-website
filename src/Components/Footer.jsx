@@ -27,7 +27,7 @@ import './Footer.css';
         
         <ul>
          <li><h4> Journalism</h4></li>
-        <li>Interactive Lectures</li>
+           <li>Interactive Lectures</li>
              <li>Practical Workshops</li>
              <li>Industry Insights</li>
              <li>Portfolio Creation</li>
