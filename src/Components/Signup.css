@@ -1,32 +1,33 @@
-form{
-    position: absolute;
+.signupform{
+    position: fixed;
     background-color: white;
     padding: 2rem 6rem;
-    text-align: center;
-    top: 13rem;
-    left: 34%;
-    z-index: 1000;
-    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
 } 
 h2{
     text-align: center;
 }
 input{
    padding: 5px 10px;
-   margin: 1rem;
+   margin: .5px;
 
 }
 .login-btn{
  border: none;
  background-color: red;
  color: white;
- margin: 1.5rem;
+ margin: .8rem;
  padding: 10px 2rem;
  
  
 }
 #username,#password{
-margin: 1rem;
+margin: .8rem;
 }
 .X{
     border: none;
@@ -36,6 +37,6 @@ margin: 1rem;
 background-color:white; ;
 }
 .bi-x{
-    font-size: 2rem;
-    color: red;
+    font-size: 2rem !important;
+    color: red !important;
 }

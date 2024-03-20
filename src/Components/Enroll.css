@@ -1,7 +1,5 @@
 .enroll{
     position: absolute;
-    
-   
 }
 
 .enroll-btn
@@ -34,5 +32,8 @@
     .enroll-btn{
       padding: 5px 10px;
       width: 5rem;
+    }
+    .enroll{
+   ;
     }
   }

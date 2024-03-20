@@ -17,7 +17,7 @@ const Signup=({onClose})=>{
 
     return(
 <div>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="signupform">
         <div>
         <h2><u>Sign Up</u></h2>
           <input
