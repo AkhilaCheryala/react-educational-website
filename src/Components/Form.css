@@ -3,6 +3,7 @@ form{
         display: flex;
         flex-direction: column;
         position: fixed;
+        z-index: 1000;
         background-color: white;
         top: 50%; /* Move the form to the center vertically */
         left: 50%; /* Move the form to the center horizontally */
