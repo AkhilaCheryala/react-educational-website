@@ -12,7 +12,17 @@ const Home=()=>{
    navigate("./Arunsjourney")
  };
  
+ const [email, setEmail] = useState('');
+ 
 
+ const handleLogin = () => {
+   if (email.trim() === '') {
+     alert('Please enter your email');
+   } else {
+     alert('Login successful!');
+     setEmail(''); // Reset email to empty after successful login
+   }
+ };
  const[showSignup,setShowSignup]=useState(false);
  const toggleSignup =()=>{
   setShowSignup(!showSignup);
@@ -42,9 +52,9 @@ return(
        journalism? Join us now and unlock the secrets to impactful storytelling and ethical reporting. Enroll today and take the first step towards shaping narratives that resonate for generations to come.</p>
     </div>
     <div className='input-box'>
-       <input type='email' id="email" placeholder='Enter your email'/>
-       <button  type='submit' className='login'>Login</button>
-     
+       <input type='email' id="email" placeholder='Enter your email' value={email}
+          onChange={(e) => setEmail(e.target.value)}/>
+       <button  type='submit' className='login' onClick={handleLogin}>Login</button>
       </div>
     <div className='brocher'>
      <div className='brocher-text'>
@@ -101,7 +111,7 @@ return(
        </div>
     </div>
     <h2 className='reviews'>Course Reviews</h2>
-    <div className="feedbacks  d-flex justify-content-center  position-static">
+    <div className="feedbacks  d-flex justify-content-center">
      <div className='row'>
        <div className='col-1'>
        <div className='card  p-2 '>

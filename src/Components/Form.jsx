@@ -25,9 +25,15 @@ import './Form.css'
 
         }));
     };
+    const [alert, setAlert] = useState('');
+   
     const handleSubmit =(e)=>{
         e.preventDefault();
-        console.log(formData);
+        const { name, age, mobileNo, gender, course } = formData;
+
+        if (name.trim() === '' || age.trim() === '' || gender.trim() === '' || mobileNo.trim() === '' || course.trim() === '') {
+            setAlert('Please fill in all fields');
+        } else {
         alert("payment is successfull");
         setFormData({
       name:'',
@@ -37,7 +43,7 @@ import './Form.css'
        course:'',
        mobileNo:''
         });
-        onclose();
+        onClose();}
     };
     const handleClose =()=>{
         setFormData({
@@ -92,6 +98,7 @@ import './Form.css'
 <button type='submit' onClick={handleFormCloseNow} className='pay'>Pay now</button>
 <button type='button' className='x'onClick={handleClose}><span className='bi bi-x'></span></button>
 </form>
+{alert && <p>{alert}</p>}
 </div>
  );
  }

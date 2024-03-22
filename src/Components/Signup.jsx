@@ -7,14 +7,18 @@ const Signup=({onClose})=>{
   
   const handleSubmit = (e) => {
    e.preventDefault();
- console.log('Submitted:', { username, password });
-  };
-  const handleClosenow=()=>{
+   if (username.trim() ==='' | password.trim() === ''){
+    alert("Please Enter the details.");
+   }else{
+    alert(' Registered Successfully!');
     setUsername("");
     setPassword("");
     onClose();
-  };
-
+   }
+  }
+const handleClosenow =()=>{
+  onClose();
+}
     return(
 <div>
       <form onSubmit={handleSubmit} className="signupform">

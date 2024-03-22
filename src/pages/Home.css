@@ -1,4 +1,4 @@
-#body{
+body{
     margin: 0 2rem;
     font-family: 'Times New Roman', Times, serif !important;
   }
@@ -321,4 +321,5 @@
   .quote{
     margin: 0 !important;
   }
+ 
   }
